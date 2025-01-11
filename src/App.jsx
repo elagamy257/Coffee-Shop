@@ -3,6 +3,7 @@ import React, { useEffect } from 'react'
 import AOS from "aos"
 import "aos/dist/aos.css";
 import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
 
 const App = () => {
   useEffect(()=>{
@@ -16,9 +17,9 @@ const App = () => {
   return(
     <div className="overflow-x-hidden">
       <Navbar />
+      <Home/>
       
-      {/* <Home />
-      <About />
+      {/*<About />
       <Menu />
       <Content /> */}
 
