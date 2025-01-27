@@ -25,8 +25,8 @@ const App = () => {
       <Home/>
       <Services/>
       <Banner />
-      {/*<AppStore />
-      <Testimonials />
+      <AppStore />
+      {/*<Testimonials />
       <Footer /> */}
 
     </div>
