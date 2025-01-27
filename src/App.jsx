@@ -6,9 +6,9 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import Services from './components/Services/Services';
 import Banner from "./components/Banner/Banner.jsx";
-// import AppStore from "./components/AppStore/AppStore.jsx";
-// import Testimonials from "./components/Testimonials/Testimonials.jsx";
-// import Footer from "./components/Footer/Footer.jsx";
+import AppStore from "./components/AppStore/AppStore.jsx";
+import Testimonials from "./components/Testimonials/Testimonials.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 const App = () => {
   useEffect(()=>{
@@ -27,7 +27,7 @@ const App = () => {
       <Banner />
       <AppStore />
       <Testimonials />
-      {/*<Footer /> */}
+      <Footer />
 
     </div>
   );
