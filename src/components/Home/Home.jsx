@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import HomePng from "../../assets/coffee2.png";
+import HomePng from "../../assets/cap-4.png";
 
 const Home = () => {
     return (
@@ -14,8 +14,9 @@ const Home = () => {
                             <span className="bg-clip-text text-transparent bg-gradient-to-b from-primary to-primary/90 font-cursive">
                             Coffee</span>{" "} in the city
                         </h1>
-                        <div data-aos="fade-up" data-aos-delay="400">
-                            <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
+                        <div data-aos="fade-up" data-aos-delay="400" >
+                            <br /> <br /><br />
+                            <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full ">
                             Coffee And Code
                             </button>
                         </div>
@@ -24,13 +25,8 @@ const Home = () => {
                     {/* Image content section */}
                     <div className="min-h-[450px] flex justify-center items-center relative order-1 sm:order-2 ">
                         <img src={HomePng} alt="biryani img" className="w-[300px] sm:w-[450px] sm:scale-125 mx-auto spin "/>
-                        <div data-aos="fade-left" className="bg-gradient-to-r from-primary to-secondary p-3 rounded-xl absolute top-10 left-10">
-                            <h1 className="text-white">Hey Coder</h1>
-                        </div>
-                        <div data-aos="fade-right" data-aos-offset="0" className="bg-gradient-to-r from-primary to-secondary p-3 rounded-xl absolute bottom-10 right-10">
-                            <h1 className="text-white">Best Coffee</h1>
-                        </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
