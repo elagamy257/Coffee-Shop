@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa6";
-import FooterBg from "../../assets/website/coffee-footer.jpg";
+import FooterBg from "../../assets/website/coffee-6.jpg";
 
 const FooterLinks = [
     {
@@ -38,7 +38,7 @@ const Footer = () => {
                     
                     {/* company details */}
                     <div className="py-8 px-4">
-                        <a href="#" className="font-semibold tracking-widest text-2xl sm:text-3xl font-cursive" > Coffee Cafe </a>
+                        <a href="#" className="font-semibold tracking-widest text-2xl sm:text-3xl font-cursive" > Elagamy Cafe </a>
                         <p className="  pt-4"> 
                             Crafted Coffee, Cozy Vibes, Unforgettable Moments – Your Perfect 
                             Espresso Escape </p>

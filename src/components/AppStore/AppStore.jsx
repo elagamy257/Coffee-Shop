@@ -2,7 +2,7 @@
 import React from 'react'
 import AppStoreImg from "../../assets/website/app_store.png";
 import PlayStoreImg from "../../assets/website/play_store.png";
-import BgPng from "../../assets/website/coffee-beans-bg.png";
+import BgPng from "../../assets/website/coffee-5.jpg";
 
 const backgroundStyle = {
     backgroundImage: `url(${BgPng})`,
@@ -21,7 +21,7 @@ return (
                     <div data-aos="fade-up" data-aos-duration="300" className="space-y-6 max-w-xl mx-auto">
                         {/* text section */}
                         <h1 className="text-2xl text-center sm:text-left sm:text-4xl font-semibold text-white/90 pl-3">
-                            Coffee Cafe is available for Android and IOS
+                            Elagamy Cafe is available for Android and IOS
                         </h1>
                         {/* img section */}
                         <div className="flex flex-wrap justify-center sm:justify-start items-center">

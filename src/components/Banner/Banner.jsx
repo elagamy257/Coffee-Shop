@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import BannerImg from "../../assets/coffee-white.png";
+import BannerImg from "../../assets/coffee-1.webp";
 import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";

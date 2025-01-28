@@ -1,6 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import Img2 from "../../assets/coffee2.png";
+import Img2 from "../../assets/cap-2.png";
+
+
 const ServicesData = [
     {
     id: 1,
